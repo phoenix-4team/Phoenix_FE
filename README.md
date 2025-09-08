@@ -15,6 +15,7 @@
 ## 🛠️ 기술 스택
 
 ### Frontend
+
 - **React 19.1.1** - 최신 React 버전으로 구축된 사용자 인터페이스
 - **TypeScript** - 타입 안전성을 보장하는 개발 환경
 - **Vite** - 빠른 개발 서버와 빌드 도구
@@ -26,6 +27,7 @@
 - **Axios** - HTTP 클라이언트
 
 ### UI/UX
+
 - **Styled Components** - CSS-in-JS 스타일링
 - **React Confetti** - 성취감을 높이는 시각적 효과
 - **Custom Animations** - 부드러운 사용자 경험을 위한 애니메이션
@@ -69,23 +71,27 @@ Frontend/
 ### 설치 및 실행
 
 1. **저장소 클론**
+
    ```bash
    git clone https://github.com/phoenix-4team/Phoenix_FE.git
    cd Phoenix_FE/Frontend
    ```
 
 2. **의존성 설치**
+
    ```bash
    npm install
    ```
 
 3. **환경 변수 설정**
+
    ```bash
    cp env.example .env
    # .env 파일을 편집하여 필요한 환경 변수 설정
    ```
 
 4. **개발 서버 실행**
+
    ```bash
    npm run dev
    ```
@@ -98,21 +104,26 @@ Frontend/
 ## 📜 사용 가능한 스크립트
 
 ### 개발
+
 - `npm run dev` - 개발 서버 실행
 - `npm run dev:scripts` - 스크립트 도구 개발 서버 실행
 
 ### 빌드
+
 - `npm run build` - 프로덕션 빌드
 - `npm run build:scripts` - 스크립트 도구 빌드
 
 ### 코드 품질
+
 - `npm run lint` - ESLint를 통한 코드 검사
 
 ### 미리보기
+
 - `npm run preview` - 빌드된 앱 미리보기
 - `npm run preview:scripts` - 스크립트 도구 미리보기
 
 ### 시나리오 관리
+
 - `npm run scenario:convert` - 시나리오 변환
 - `npm run scenario:convert-all` - 모든 시나리오 변환
 - `npm run scenario:validate` - 시나리오 데이터 검증
@@ -120,11 +131,13 @@ Frontend/
 ## 🎨 디자인 시스템
 
 ### 색상 팔레트
+
 - **Primary**: 오렌지 계열 (#f97316)
 - **Dark Mode**: 다크 그레이 계열
 - **Accent**: 빨간색 계열 (재난/긴급 상황 표현)
 
 ### 애니메이션
+
 - **Fade In/Out**: 부드러운 등장/퇴장 효과
 - **Slide**: 좌우/상하 슬라이드 효과
 - **Bounce**: 생동감 있는 바운스 효과
@@ -133,14 +146,17 @@ Frontend/
 ## 🔧 개발 도구
 
 ### 시나리오 생성기
+
 `scripts/scenario-generator/` 디렉토리에는 시나리오 데이터를 생성하고 관리하는 도구가 포함되어 있습니다.
 
 ### 게임 스크립트 도구
+
 `scripts/game-script-tool/` 디렉토리에는 게임 스크립트를 관리하는 웹 기반 도구가 포함되어 있습니다.
 
 ## 🚀 배포
 
 ### Docker를 사용한 배포
+
 ```bash
 # Docker 이미지 빌드
 docker build -t phoenix-fe .
@@ -150,6 +166,7 @@ docker run -p 80:80 phoenix-fe
 ```
 
 ### AWS Amplify를 사용한 배포
+
 `amplify.yml` 파일이 포함되어 있어 AWS Amplify를 통한 자동 배포가 가능합니다.
 
 ## 🤝 기여하기
